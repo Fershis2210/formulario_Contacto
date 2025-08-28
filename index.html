@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <main>
+        <div class="contactUs">
+            <H2 class="ContactUs" id="ContactUs">
+                Contact Us
+            </H2>
+        </div>
+        <div class="data">
+            <div class="dataName">
+                <p class="firstName"> First Name </p>
+                <p class="asterisk"> * </p>    
+                <textarea name="firstName" id="firstName"></textarea>
+
+                <p class="lastName"> Last Name </p>
+                <p class="asterisk"> * </p>
+                <textarea name="lastName" id="lastName"></textarea>
+            </div>
+            <div class="dataEmail">
+                <p class="email"> Email Address </p>
+                <p class="asterisk"> * </p>
+                <textarea name="email" id="email"></textarea>
+            </div>
+        
+        <div class="dataQuery">
+            <p class="queryType"> Query Type </p>
+            <p class="asterisk"> * </p>
+            
+            <div class="radioButton"> 
+                <input type="radio" id="generalEnquiry" name="query" value="generalEnquiry" />
+                <label for="generalEnquiry"> General enquiry </label>
+
+                <input type="radio" id="supportRequest" name="query" value="supportRequest" />
+                <label for="supportRequest"> Support request </label>
+            </div>
+        </div>
+        
+        <div class="dataMessage">
+            <p class="message"> Message </p>
+            <p class="asterisk"> * </p>
+            <textarea name="message" id="message"></textarea>
+
+            <input type="radio" id="consent" name="consent" value="consent">
+            <label for="consent"> I consent to being contacted by the team 
+            <p class="asterisk"> * </p>
+            </label>
+            
+        </div>
+    </div>
+    </main>
+    
+</body>
+</html>
