@@ -1,0 +1,43 @@
+* {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.debug {
+    border:  1px solid red;
+}
+
+main {
+    background-color: rgb(158, 236, 230) ;
+    padding: 289px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contactUs {
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.dataName {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.firstName {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 20px;
+}
