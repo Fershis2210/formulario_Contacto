@@ -9,29 +9,36 @@
 </head>
 <body>
     <main class="debug">
-        <div class="contactUs debug">
+        <div class="contactUs">
             <H2 class="ContactUs" id="ContactUs">
                 Contact Us
             </H2>
         </div>
         <div class="data">
-            <div class="dataName">
-                <p class="firstName"> First Name </p>
-                <p class="asterisk"> * </p>    
-                <textarea name="firstName" id="firstName"></textarea>
+            <div class="dataName debug">
+                <div class="fontDataName">
+                    <p class="fontFirstName"> First Name </p>
+                    <p class="asterisk"> * </p> 
 
-                <p class="lastName"> Last Name </p>
-                <p class="asterisk"> * </p>
-                <textarea name="lastName" id="lastName"></textarea>
+                    <p class="fontLastName"> Last Name </p>
+                    <p class="asterisk"> * </p>
+            </div>
+                <div class="containerText">
+                 <textarea name="firstName" id="firstName" class="firstName"></textarea>
+                 <textarea name="lastName" id="lastName"></textarea>
+            </div>  
+               
+
+               
             </div>
             <div class="dataEmail">
-                <p class="email"> Email Address </p>
+                <p class="font"> Email Address </p>
                 <p class="asterisk"> * </p>
                 <textarea name="email" id="email"></textarea>
             </div>
         
         <div class="dataQuery">
-            <p class="queryType"> Query Type </p>
+            <p class="font"> Query Type </p>
             <p class="asterisk"> * </p>
             
             <div class="radioButton"> 
@@ -44,7 +51,7 @@
         </div>
         
         <div class="dataMessage">
-            <p class="message"> Message </p>
+            <p class="font"> Message </p>
             <p class="asterisk"> * </p>
             <textarea name="message" id="message"></textarea>
 
