@@ -9,7 +9,9 @@
 body {
     display: flex;
     flex-direction: column;
-    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     max-width: 100%;
 }
 
@@ -27,6 +29,7 @@ main {
     padding-bottom: 289px;
     padding-left: 80px;
     padding-right: 80px;
+    justify-content: center;
     align-items: center;
     max-width: 100%;
     display: flex;
@@ -39,51 +42,183 @@ main {
     padding: 10px;
     align-items: flex-start;
     gap: 40px;
-    width: 100%;
+    width: 75%;
+}
+
+.data {
+    justify-content: space-around;
+    max-width: 100%;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    width: 60%;
 }
 
 .dataName {
-    justify-content: space-around;
     max-width: 100%;
     display: flex;
     align-items: flex-start;
-    padding: 10px;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .fontDataName {
-    max-height: max-content;
+    padding: 10px;
+    width: 100%;
     max-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
     align-items: flex-start;
     flex-direction: row;
 }
 
 .fontFirstName {
+    width: 50%;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 50%;
+}
+
+.fontLastName {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
     align-items: flex-start;
     max-width: 50%;
 }
 
 .containerText {
-    width: 100%;
+    justify-content: flex-start;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.firstName {
+    width: 40%;
+    outline-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 50px;
+    border-radius: 8px;
+    resize: none;
+}
+.lastName {
+    width: 40%;
+    outline-style: none;
+    display: flex;
+    margin-left: 25px;
+    align-items: flex-start;
+    border-radius: 8px;
+    resize: none;
+}
+
+.dataEmail {
+    padding: 20px;
     max-width: 100%;
     display: flex;
     align-items: flex-start;
-    flex-direction: row;
-    padding-top: 5px;
+    flex-direction: column;
+    width: 90%;
 }
 
-/* .firstName {
+.fontDataEmail {
+    padding: 10px;
+    width: 65%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.fontEmail {
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.email {
+    width: 91%;
+    outline-style: none;
     display: flex;
     align-items: flex-start;
+    border-radius: 8px;
+    resize: none;
+}
+
+.dataQuery {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    padding-left: 20px;
     padding-right: 20px;
-} */
+}
 
+.fontDataQuery {
+    padding: 10px;
+    width: 32%;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
 
+.radioButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+}
 
+.generalEnquiry {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 50%;
+}
+
+.fontGeneralEnquiry {
+    padding: 9px;
+    border: 1px solid black;
+    width: 40%;
+    outline-style: none;
+    display: flex;
+    margin-right: 50px;
+    border-radius: 8px;
+    justify-content: flex-start;
+}
+
+.supportRequest {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 50%;
+}
+
+.fontSupportRequest {
+    padding: 9px;
+    border: 1px solid black;
+    width: 40%;
+    outline-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 50px;
+    border-radius: 8px;
+}
 
 
 

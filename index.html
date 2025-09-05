@@ -9,44 +9,48 @@
 </head>
 <body>
     <main class="debug">
-        <div class="contactUs">
+        <div class="data">
+            <div class="contactUs">
             <H2 class="ContactUs" id="ContactUs">
                 Contact Us
             </H2>
         </div>
-        <div class="data">
             <div class="dataName debug">
                 <div class="fontDataName">
-                    <p class="fontFirstName"> First Name </p>
-                    <p class="asterisk"> * </p> 
+                    <p class="fontFirstName"> First Name <p class="asterisk"> * </p> </p>
 
-                    <p class="fontLastName"> Last Name </p>
-                    <p class="asterisk"> * </p>
+                    <p class="fontLastName"> Last Name  <p class="asterisk"> * </p> </p>
             </div>
                 <div class="containerText">
                  <textarea name="firstName" id="firstName" class="firstName"></textarea>
-                 <textarea name="lastName" id="lastName"></textarea>
-            </div>  
-               
-
-               
+                 <textarea name="lastName" id="lastName" class="lastName"></textarea>
+                </div>  
             </div>
-            <div class="dataEmail">
-                <p class="font"> Email Address </p>
-                <p class="asterisk"> * </p>
-                <textarea name="email" id="email"></textarea>
+
+
+            <div class="dataEmail debug">
+                <div class="fontDataEmail">
+                    <p class="fontEmail"> Email Address <p class="asterisk"> * </p> </p>
+                </div>
+                <textarea name="email" id="email" class="email"></textarea>
             </div>
         
-        <div class="dataQuery">
-            <p class="font"> Query Type </p>
-            <p class="asterisk"> * </p>
+        <div class="dataQuery debug">
+            <div class="fontDataQuery">
+                <p class="fontQuery"> Query Type  <p class="asterisk"> * </p> </p>
+            </div>
             
             <div class="radioButton"> 
-                <input type="radio" id="generalEnquiry" name="query" value="generalEnquiry" />
-                <label for="generalEnquiry"> General enquiry </label>
+                <div class="fontGeneralEnquiry">
+                    <input type="radio" id="generalEnquiry" name="query" value="generalEnquiry" class="generalEnquiry"/>
+                    <label for="generalEnquiry"> General enquiry </label>
+                </div>
+                
+                <div class="fontSupportRequest">
+                    <input type="radio" id="supportRequest" name="query" value="supportRequest" class="supportRequest" />
+                    <label for="supportRequest"> Support request </label>
+                </div>
 
-                <input type="radio" id="supportRequest" name="query" value="supportRequest" />
-                <label for="supportRequest"> Support request </label>
             </div>
         </div>
         
