@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <main class="debug">
+    <main>
         <div class="data">
             <div class="contactUs">
             <H2 class="ContactUs" id="ContactUs">
@@ -54,16 +54,25 @@
             </div>
         </div>
         
-        <div class="dataMessage">
-            <p class="font"> Message </p>
-            <p class="asterisk"> * </p>
-            <textarea name="message" id="message"></textarea>
-
-            <input type="radio" id="consent" name="consent" value="consent">
-            <label for="consent"> I consent to being contacted by the team 
+        <div class="dataMessage debug">
+            <div class="fontDataMessage">
+                <p class="fontMessage"> Message <p class="asterisk"> * </p> </p>
+            </div>
+            
+            <textarea name="message" id="message" class="message"></textarea>
+            
+            </div>   
+        <div class="dataConsent debug">
+            <div class="fontConsent">
+            <input type="radio" id="consent" name="consent" value="consent" class="consent">
+            </div>
+            <div class="debug fontDataConsent">
+                <label for="consent" class="consent debug"> I consent to being contacted by the team 
             <p class="asterisk"> * </p>
             </label>
-            
+               
+            </div>
+        
         </div>
 
         <button id="submit">
